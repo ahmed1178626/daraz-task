@@ -1,0 +1,905 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: NotoSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei, sans-serif !important;
+}
+
+/* ******Container******* */
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+/* *************form input************ */
+form input {
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid rgb(218, 215, 215);
+    border-radius: 4px;
+    padding-left: 12px;
+}
+
+/* ********Header******** */
+header {
+    background-color: #f85606;
+
+
+}
+
+/* **********Primary-nav*********** */
+.primary-nav {
+    display: flex;
+    justify-content: end;
+}
+
+.primary-nav ul {
+    display: flex;
+
+}
+
+.primary-nav ul li {
+    list-style-type: none;
+}
+
+.primary-nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 16px;
+    color: white;
+    font-size: 12px;
+
+}
+
+.primary-nav ul li a:hover {
+    text-decoration: underline;
+    font-size: ;
+}
+
+/* *********Secandry-nav********* */
+.secandry-nav {
+    padding-bottom: 32px;
+}
+
+.secandry-nav form {
+    display: flex;
+    align-items: center;
+}
+
+
+.secandry-nav form .input-control {
+    border: none;
+    height: 35px;
+    padding-left: 12px;
+    width: 600px;
+    background-color: #fff;
+}
+
+.secandry-nav ul li form svg {
+    /* width: 18px; */
+}
+
+.secandry-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 32px; */
+}
+
+.secandry-nav ul li {
+    list-style-type: none;
+    margin: 12px 32px;
+}
+
+.secandry-nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    /* margin: 12px 16px 48px; */
+}
+
+.secandry-nav ul li a img {
+    width: 130px;
+}
+
+.secandry-nav ul li a svg {
+    width: 38px;
+}
+
+/* ********main******** */
+.main-wrapper {
+    background-color: #f4f4f6;
+}
+
+.adds-sec {
+    display: flex;
+    /* height: 300px; */
+}
+
+.adds-sec .adds-pics {
+    width: 80%;
+}
+
+.adds-sec .adds-pics a img {
+    width: 100%;
+}
+
+.adds-sec .drz-app {
+    width: 20%;
+    background: linear-gradient(90deg, #fff, hsla(0, 0%, 100%, 0)), linear-gradient(179.27deg, #ffedd6 .83%, #ffc3e3 46.78%, #fff 99.57%), linear-gradient(0deg, #fff, #fff);
+}
+
+.drz-app .try-daraz {
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+}
+
+.drz-app .try-daraz img {
+    width: 50px;
+}
+
+.drz-app .try-daraz p {
+    font-size: 20px;
+}
+
+.dwn-op {
+    background-image: url(../img/dwn-bgc.png);
+    width: 95%;
+    /* height: 250px; */
+    margin: 0px auto;
+}
+
+.dwn-op .ratting {
+    display: flex;
+}
+
+.ratting {
+    /* margin-top: 8px; */
+}
+
+.dwn-op .ratting img {
+    width: 12px;
+    margin: 18px 8px 8px 14px;
+}
+
+.dwn-op .ratting p {
+    margin-top: 14px;
+    color: white;
+}
+
+.dwn-op .download-app {
+    display: flex;
+}
+
+.dwn-op .download-app h2 {
+    font-size: 18px;
+    margin: 8px auto;
+    color: white;
+}
+
+.shipping-vauchers {
+    /* margin-bottom: 64px;
+    display: inline-block; */
+}
+
+.shipping-vauchers .ship {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+}
+
+.shipping-vauchers .ship img {
+    width: 60px;
+}
+
+.shipping-vauchers .ship p {
+    font-size: 20px;
+    color: wheat;
+    margin-left: 8px;
+}
+
+.shipping-vauchers .vouchers {
+    display: flex;
+    align-items: center;
+    margin: 16px 16px 0px 16px;
+}
+
+.shipping-vauchers .vouchers img {
+    width: 60px;
+}
+
+.shipping-vauchers .vouchers p {
+    font-size: 20px;
+    color: wheat;
+    margin-left: 8px;
+}
+
+.QR-op {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+
+.QR-op .QR-pic img {
+    width: 120px;
+}
+
+.QR-op .dwn-btn button {
+    border: none;
+    background-color: transparent;
+    margin: 14px 8px 14px 8px;
+}
+
+.QR-op .dwn-btn button a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: rgb(66, 66, 66);
+}
+
+.QR-op .dwn-btn button img {
+    width: 30px;
+    padding-right: 4px;
+}
+
+.QR-op .dwn-btn button a h2 {
+    font-size: 10px;
+}
+
+.drz-app .dwn-info p {
+    margin: 0px 0px 32px 16px;
+    font-size: large;
+}
+
+.sale-products hr {
+    margin-bottom: 12px;
+}
+
+/* *******Flash Sale********* */
+.flash-sale {
+    margin-top: 16px;
+}
+
+.flash-sale .heading {
+    color: rgb(31, 29, 29);
+    font-size: 24px;
+}
+
+.sale-products {
+    background-color: white;
+}
+
+.on-sale-now {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.on-sale-now p {
+    color: #f85606;
+    margin-left: 12px;
+}
+
+.on-sale-now button {
+    border-color: #f85606;
+    background: transparent;
+    margin: 8px;
+}
+
+.on-sale-now button a {
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+    color: #f85606;
+}
+
+/* *********cards********* */
+.cards {
+    display: flex;
+    /* margin-top: 12px; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    /* margin: 0px 2px; */
+    width: 15.5%;
+    justify-content: space-between;
+}
+
+.card a img {
+    width: 100%;
+}
+
+.cards .card .card-ditales {
+    margin: 12px;
+}
+
+.cards .card .card-ditales h3 {
+    color: #f85606;
+    margin: 8px 0px 0px 0px;
+}
+
+.cards .card .card-ditales .off {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+/* ********Categories******** */
+.categories {
+    margin-top: 16px;
+}
+
+.categories .heading {
+    color: rgb(31, 29, 29);
+    font-size: 24px;
+}
+
+.cate-products {
+    background-color: white;
+}
+
+.categories .cate-products ul {
+    display: flex;
+}
+
+.categories .cate-products ul li {
+    list-style-type: none;
+    padding: 16px;
+    border: 2px solid transparent;
+}
+
+.categories .cate-products ul li:hover {
+    border: 2px solid gray;
+}
+
+.categories .cate-products ul li a img {
+    width: 100%;
+}
+
+.categories .cate-products ul li a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.categories .cate-products ul li a p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* *******For you******** */
+.just-for-you {
+    margin-top: 16px;
+}
+
+.just-for-you .heading {
+    color: rgb(31, 29, 29);
+    font-size: 24px;
+}
+
+.for-you-wrapper {
+    background-color: white;
+}
+
+/* **********LOAD MORE*********** */
+.load-more {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+.load-more button {
+    background: transparent;
+    border-color: #f85606;
+}
+
+.load-more button a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 140px;
+    color: #f85606;
+}
+
+/* ********main footer********* */
+.mn-ft-wrap {
+    background-color: #f4f4f6;
+}
+
+.mn-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mn-footer .about-us {
+    display: flex;
+}
+
+.mn-footer .about-us ul {
+    margin-right: 92px;
+}
+
+.mn-footer .about-us ul li p {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.mn-footer .about-us ul li {
+    list-style-type: none;
+    color: #0f136d;
+}
+
+.mn-footer .about-us ul li a {
+    text-decoration: none;
+    color: #0f136d;
+    font-size: 12px;
+}
+
+.mn-footer .about-us ul li a:hover {
+    text-decoration: underline;
+}
+
+.mn-footer .shop {
+    display: flex;
+}
+
+.mn-footer .shop img {
+    width: 60px;
+    height: 60px;
+}
+
+.mn-footer .shop .shop-dt {
+    margin-left: 12px;
+}
+
+.mn-footer .shop .shop-dt .hp-shop {
+    color: #f85606;
+    margin-bottom: 4px;
+}
+
+.mn-footer .shop .shop-dt .dwn-pr {
+    color: #131bad;
+}
+
+.mn-footer .d-op {
+    width: 290px;
+    /* margin: 12px; */
+
+}
+
+/* *******payment methods******** */
+
+.pay-mthd {
+    display: flex;
+    padding: 32px 0px;
+
+}
+
+.pay-mthd .pay {
+    width: 25%;
+}
+
+.pay-mthd .pay p {
+    margin: 0px 0px 12px 8px;
+    /* margin-bottom: 28; */
+    color: rgb(6, 32, 20);
+
+}
+
+.pay-mthd .pay img {
+    width: 40px;
+}
+
+.pay-mthd .verified {
+    width: 15%;
+}
+
+.pay-mthd .verified p {
+    color: rgb(6, 32, 20);
+    margin-bottom: 8px;
+}
+
+.pay-mthd .verified img {
+    width: 60px;
+    margin: 0px 0px 0px 8px;
+}
+
+
+
+
+/* ********footer******** */
+/* primary-footer */
+.primary-footer {
+    background-color: #f4f4f6;
+}
+
+.primary-footer p {
+    color: #888888;
+    padding: 8px 0px;
+}
+
+.primary-ft-wrapper h1 {
+    color: #606060;
+}
+
+.primary-ft-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 84px 0px;
+}
+
+.primary-ft-wrapper .about-daraz {
+    width: 22%;
+}
+
+.primary-ft-wrapper .about-daraz-2 {
+    width: 22%;
+}
+
+.primary-ft-wrapper .about-daraz-3 {
+    width: 22%;
+}
+
+.primary-ft-wrapper .about-daraz-4 {
+    width: 22%;
+}
+
+/* **********Secandry-footer********** */
+.sec-footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-footer-wrapper {
+    padding: 24px 0px;
+}
+
+.sec-footer-wrapper ul {
+    display: flex;
+    /* align-items: center; */
+}
+
+.sec-footer-wrapper ul li {
+
+    list-style-type: none;
+    margin: 8px 8px 8px 0px;
+}
+
+.sec-footer-wrapper ul li img {
+    width: 28px;
+    padding-right: 4px;
+}
+
+.sec-footer-wrapper .daraz-inter ul li a {
+    text-decoration: none;
+    color: rgb(167, 165, 165);
+    display: flex;
+    align-items: center;
+}
+
+.sec-footer-wrapper .daraz-inter ul li a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.sec-footer-wrapper .dr-date p {
+    font-size: 13px;
+    color: rgb(128, 128, 128);
+
+}
+
+/* ********messages********** */
+.footer .messages {
+    position: fixed;
+    right: 80px;
+    bottom: 2px;
+}
+
+.footer .messages a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    color: #044254;
+}
+
+.footer .messages a svg {
+    width: 22px;
+}
+
+
+/* ******Side-opt******* */
+.footer .side-opt {
+    position: fixed;
+    left: 0px;
+    bottom: 10px;
+}
+
+.footer .side-opt ul li {
+    list-style-type: none;
+}
+
+.footer .side-opt ul li button {
+    padding: 8px 0px;
+    background-color: #f5f5f5;
+    border: 1px solid white;
+}
+
+.footer .side-opt ul li a {
+    padding: 8px;
+}
+
+.footer .side-opt ul li a svg {
+    width: 20px;
+}
+
+
+
+
+
+
+/* **************SELL ON DARAZ PAGE*************** */
+
+
+
+.main .cate-down {
+    left: 0px;
+    right: 0px;
+}
+
+.main .cate-down .categories a {
+    display: flex;
+    text-decoration: none;
+}
+
+.main .cate-down .categories {
+    display: flex;
+    align-items: center;
+    padding: 24px 0px;
+}
+
+.categories p {
+    color: #0f136d;
+    padding: 0px 4px;
+}
+
+.categories svg {
+    width: 20px;
+
+}
+
+.main .top-add img {
+    width: 100%;
+}
+
+.mn-wrapper .how-to-join img {
+    width: 100%;
+}
+
+.mn-wrapper .dadicated-add {
+    width: 100%;
+}
+
+
+
+/* **************Login****************** */
+
+
+.login-dtls {}
+
+
+
+
+
+.trns-page {
+    position: fixed;
+    inset: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.signin-page {
+    position: fixed;
+    top: 23%;
+    right: 40%;
+    padding: 16px 24px;
+    /* width: 500px; */
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.pass-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 32px;
+}
+
+.signin-page .emt {
+    background-color: gray;
+    height: 16px;
+    width: 1px;
+    margin: 0px 32px;
+}
+
+.login-dtls .signin-page .pas p {
+    font-size: 20px;
+}
+
+.login-dtls .signin-page .num p {
+    color: gray;
+    font-size: 20px;
+}
+
+.login-dtls .signin-page form input {
+    width: 100%;
+   
+}
+
+.login-dtls .signin-page .ent-pass {
+    margin-top: 18px;
+}
+
+.login-dtls .signin-page .for-get-pass {
+    display: flex;
+    justify-content: end;
+}
+
+.login-dtls .signin-page .for-get-pass a {
+    text-decoration: none;
+    margin: 6px 0px 24px 0px;
+}
+
+.login-dtls .signin-page .for-get-pass a p {
+    color: #858b9c;
+    font-size: 12px;
+}
+
+.login-dtls .signin-page .login-btn a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.login-dtls .signin-page .login-btn a p {
+
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #f85606;
+}
+
+.login-dtls .signin-page .signup-opt p {
+    font-size: 12px;
+    margin-top: 24px;
+    color: #858b9c;
+    text-align: center;
+}
+
+.login-dtls .signin-page .signup-opt p a {
+    text-decoration: none;
+}
+
+.login-dtls .signin-page .login-with p {
+    font-size: 12px;
+    margin: 38px 0px 12px 0px;
+    text-align: center;
+    color: #858b9c;
+}
+
+
+.login-dtls .signin-page .log-google-fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-dtls .signin-page .log-google-fb a svg {
+    width: 20px;
+    margin: 0px 8px 0px 24px;
+}
+
+.login-dtls .signin-page .log-google-fb a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #858b9c;
+
+}
+
+/* ********************Sign Up*************************** */
+
+.signup-wrapper{
+    position: fixed;
+    top: 30%;
+    right: 37%;
+    padding: 12px;
+    background-color: #fff;
+}
+.signup-wrapper .signup-hd h1{
+    text-align: center;
+    margin: 16px 0px 32px 0px;
+    font-size: 22px;
+}
+.signup-wrapper form .pk-code{
+    width: 20%;
+}
+.signup-wrapper form .pk-num{
+    width: 78%;
+}
+
+.signup-wrapper .radio-wrap{
+    display: flex;
+    align-items: center;
+}
+.signup-wrapper .radio-wrap form .radio-bt{
+    height: 16px;
+    margin: 12px 4px ;
+}
+.signup-wrapper .radio-wrap p {
+    font-size: 14px;
+    color: #858b9c;
+}
+.signup-wrapper .radio-wrap p a{
+    text-decoration: none;
+}
+.signup-wrapper .cd-sd-bt{
+    margin: 48px 0px 8px 0px;
+}
+.signup-wrapper .cd-sd-bt a{
+    text-decoration: none;
+    display: flex;
+    color: white;
+    background-color: #f85606;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 8px;
+
+}
+.signup-wrapper .cd-sd-bt a svg{
+    width: 24px;
+    margin: 2px 42px 2px 4px ;
+}
+
+.signup-wrapper .lgn-now{
+    display: flex;
+    /* align-items: center; */
+    margin: 4px 32px;
+    /* font-size: 16px; */
+}
+.signup-wrapper .lgn-now p{
+    color: #858b9c;
+}
+.signup-wrapper .lgn-now a{
+    text-decoration: none;
+}
+.signup-wrapper .login-with p {
+    font-size: 12px;
+    margin: 38px 0px 12px 0px;
+    text-align: center;
+    color: #858b9c;
+}
+
+
+.signup-wrapper .log-google-fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signup-wrapper .log-google-fb a svg {
+    width: 20px;
+    margin: 0px 8px 0px 24px;
+}
+
+.signup-wrapper .log-google-fb a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #858b9c;
+
+}
